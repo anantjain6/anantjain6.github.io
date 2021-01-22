@@ -4,11 +4,11 @@
 <head>
 
   <!-- Title -->
-  <title>Anant Jain</title>
+  <title>Anant Jain | Java Software Engineer</title>
 
   <!-- Meta -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta name="description" content="Anant Jain - Java, Spring & Hibernate Developer, IT Engineer and Open Source Contributor."/>
   <!-- Facebook Open Graph -->
@@ -28,12 +28,12 @@
   <meta name="p:domain_verify" content="816e4bac477fc32394f21f23acbe7ae7"/>
 
   <!-- Favicons -->
-  <link rel="shortcut icon" href="assets/img/favicon.png">
-  <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+  <link rel="shortcut icon" href="assets/img/icon_48.jpg">
+  <link rel="apple-touch-icon" href="assets/img/icon_60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/icon_76.jpg">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/icon_120.jpg">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icon_152.jpg">
+  <link rel="icon" type="image/x-icon" href="assets/img/icon_48.jpg" />
 
   <!-- Google Web Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
@@ -48,6 +48,15 @@
   <!-- CSS Template -->
   <link rel="stylesheet" href="assets/css/theme.min.css" />
   <link rel="stylesheet" href="assets/css/color/blue-beige.css" id="color" />
+
+  <script>
+   if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(function(reg){
+       }).catch(function(err) {
+      });
+   }
+  </script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -79,13 +88,13 @@
     <!-- Navigation -->
     <nav id="main-menu">
       <ul class="nav nav-vertical">
-        <li><a href="#start" id="tag_link"><span>Home</span></a></li>
-        <li><a href="#about" id="tag_link"><span>About</span></a></li>
-        <li><a href="#skills" id="tag_link"><span>Skills</span></a></li>
-        <li><a href="#timeline" id="tag_link"><span>Timeline</span></a></li>
-        <li><a href="#achievement" id="tag_link"><span>Achievements</span></a></li>
-        <li><a href="#honour" id="tag_link"><span>Honour</span></a></li>
-        <li><a href="#contact" id="tag_link"><span>Contact</span></a></li>
+        <li><a href="#start" class="tag_link"><span>Home</span></a></li>
+        <li><a href="#about" class="tag_link"><span>About</span></a></li>
+        <li><a href="#skills" class="tag_link"><span>Skills</span></a></li>
+        <li><a href="#timeline" class="tag_link"><span>Timeline</span></a></li>
+        <li><a href="#achievement" class="tag_link"><span>Achievements</span></a></li>
+        <li><a href="#honour" class="tag_link"><span>Honour</span></a></li>
+        <li><a href="#contact" class="tag_link"><span>Contact</span></a></li>
         <li><a href="https://medium.com/@anantjain60"><span>Blog</span></a></li>
       </nav>
 
@@ -121,7 +130,7 @@
         <div class="container container-wide v-bottom padding-v-80">
           <h1 class="text-lg margin-b-0">Hi! I’m <strong>Anant Jain</strong></h1>
           <h5 class="text-tertiary margin-b-40">Java, Spring &amp; Hibernate Developer, IT Engineer and Open Source Contributor</h5>
-          <span data-target="local-scroll"><a href="#about" id="tag_link" class="btn btn-lg btn-primary animated" data-animation="bounceIn"><span>Know More About Me</span><i class="ti-arrow-down"></i></a></span>
+          <span data-target="local-scroll"><a href="#about" class="tag_link btn btn-lg btn-primary animated" data-animation="bounceIn"><span>Know More About Me</span><i class="ti-arrow-down"></i></a></span>
           &nbsp; &nbsp; &nbsp;
           <span data-target="local-scroll"><a href="https://bit.ly/AnantJainResume" target="_blank" class="btn btn-lg btn-primary animated" data-animation="bounceIn"><span>Resume</span><i class="fa fa-file"></i></a></span>
         </div>
@@ -371,31 +380,31 @@
 
                   <h2><strong>Certificate</strong> &amp; Honour</h2>
                 <div class="row">
-                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/ig_bct.jpeg" width="100%"></div>
-                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/ig_agile.jpg" width="100%"></div>
+                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/ig_bct.jpeg" width="100%" alt="Completed Infogain Boot Camp Training Jan 2020"></div>
+                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/ig_agile.jpg" width="100%" alt="Infogain Certificate of completion Agile Fundamentals"></div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/sih.jpg" width="100%"></div>
-                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/cdac.jpg" width="100%"></div>
+                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/sih.jpg" width="100%" alt="Smart India Hackathon 2020 Winner"></div>
+                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/cdac.jpg" width="100%" alt="Modular course on Basics of Cryptography and Information Security by CDAC"></div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/7.jpg" width="100%"></div>
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/6.jpg" width="100%"></div>
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/8.jpg" width="100%"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/7.jpg" width="100%" alt="C Training by IIT Bombay"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/6.jpg" width="100%" alt="Python Training by IIT Bombay"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/8.jpg" width="100%" alt="Certified Online Marketing fundamental expert by Google"></div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/4.png" width="100%"></div>
-                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/5.png" width="100%"></div>
+                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/4.png" width="100%" alt="Udacity Python Scholership Challange by Facebook"></div>
+                  <div class="col-sm-6" style="padding-bottom: 20px"><img src="img/5.png" width="100%" alt="Udacity Google India Challange Scholership"></div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/1.jpg" width="100%"></div>
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/2.jpg" width="100%"></div>
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/3.jpg" width="100%"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/1.jpg" width="100%" alt="Google Analytics for beginer"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/2.jpg" width="100%" alt="Advanced Google Analytics"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/3.jpg" width="100%" alt="Getting started by Google Analytics 360"></div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/9.jpg" width="100%"></div>
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/10.jpg" width="100%"></div>
-                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/11.jpg" width="100%"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/9.jpg" width="100%" alt="E-Commerce Analytics"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/10.jpg" width="100%" alt="Google Tag Manager Fndamentals"></div>
+                  <div class="col-sm-4" style="padding-bottom: 20px"><img src="img/11.jpg" width="100%" alt="Real Time Advertisement Fundamentals"></div>
                 </div>
               </div>
             </section>
@@ -431,38 +440,6 @@
           </div>
           <!-- Content / End -->
 
-          <!-- Messanger -->
-          <a href="#" id="messenger-toggle" data-target="messenger" class="icon icon-sm icon-circle animated" data-animation="bounceIn" data-animation-delay="300"><i class="fa fa-comments"></i></a>
-          <div id="messenger" class="dark">
-            <div id="messenger-box">
-              <div class="messenger-box-content">
-                <!-- Close -->
-                <a href="#" class="messenger-close icon icon-hover icon-xs icon-circle icon-white" data-target="messenger"><i class="fa fa-times"></i></a>
-                <!-- Avatar -->
-                <img src="img/me.png" width="96" height="96" alt="Anant Jain" class="img-circle margin-b-30">
-                <h3>Please fill the <strong>form</strong> - I will response as fast as I can!</h3>
-                <!-- Contact Form -->
-                <form id="contact-form">
-                  <div class="form-alert"></div>
-                  <div class="form-error alert alert-default"><ul></ul></div>
-                  <div class="form-group">
-                    <label>Name:</label>
-                    <input id="name" class="form-control" type="text" name="name">
-                  </div>
-                  <div class="form-group">
-                    <label>Addres e-mail:</label>
-                    <input id="email" class="form-control" type="text" name="email">
-                  </div>
-                  <div class="form-group">
-                    <label>Message:</label>
-                    <textarea id="message" class="form-control" name="message" rows="4"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-secondary"><span>Send a message!</span><i class="ti-email"></i></button>
-                </form>
-              </div>
-            </div>
-          </div>
-
           <!-- Mobile Navigation -->
           <a href="#" id="mobile-nav-toggle" class="icon icon-circle icon-sm icon-primary icon-hover visible-xs visible-sm" data-target="mobile-nav">
             <i class="ti-menu"></i>
@@ -473,13 +450,13 @@
               <img src="img/me.png" width="96" height="96" alt="Anant Jain" class="img-circle margin-b-30">
               <!-- Nav -->
               <ul class="nav nav-vertical">
-                <li><a href="#start" id="tag_link"><span>Home</span></a></li>
-                <li><a href="#about" id="tag_link"><span>About</span></a></li>
-                <li><a href="#skills" id="tag_link"><span>Skills</span></a></li>
-                <li><a href="#timeline" id="tag_link"><span>Timeline</span></a></li>
-                <li><a href="#achievement" id="tag_link"><span>Achievements</span></a></li>
-                <li><a href="#honour" id="tag_link"><span>Honour</span></a></li>
-                <li><a href="#contact" id="tag_link"><span>Contact</span></a></li>
+                <li><a href="#start" class="tag_link"><span>Home</span></a></li>
+                <li><a href="#about" class="tag_link"><span>About</span></a></li>
+                <li><a href="#skills" class="tag_link"><span>Skills</span></a></li>
+                <li><a href="#timeline" class="tag_link"><span>Timeline</span></a></li>
+                <li><a href="#achievement" class="tag_link"><span>Achievements</span></a></li>
+                <li><a href="#honour" class="tag_link"><span>Honour</span></a></li>
+                <li><a href="#contact" class="tag_link"><span>Contact</span></a></li>
                 <li><a href="https://blog.anantjain.me"><span>Blog</span></a></li>
               </ul>
               <!-- Social Media -->
@@ -505,7 +482,7 @@
           <script src="assets/js/jquery-1.11.3.min.js"></script>
 
           <script type="text/javascript">
-            jQuery(document).on('click','#tag_link', function(event) {
+            jQuery(document).on('click','.tag_link', function(event) {
               event.preventDefault();
               var url = jQuery(this).attr('href').split('#')[1];
       //var target = "#" + this.getAttribute('data-target');
@@ -526,9 +503,6 @@
 
   <!-- JS Core -->
   <script src="assets/js/core.min.js"></script>
-
-  <!-- Google Map API -->
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 </body>
 
