@@ -23,7 +23,8 @@
     {
       "src": "assets/img/icon_192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "/assets/img/icon_384.png",
@@ -36,5 +37,5 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?utm_source=launcher"
+  "start_url": "/index.html"
 }
