@@ -1,4 +1,4 @@
-const dynamicCacheName = 'site-dynamic-v1-1';
+const dynamicCacheName = 'site-dynamic-v1-2';
 // activate event
 self.addEventListener('activate', evt => {
   evt.waitUntil(
